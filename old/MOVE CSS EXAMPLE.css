@@ -1,0 +1,253 @@
+html, body {
+  margin: 0;
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+/*.jumbotron {
+  height: 800px;
+  background-image: "img/Library.jpg" no-repeat center center;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.firstseg {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.firstseg h1 {
+	font-size: 250px;
+	line-height: 100px; 
+	margin-top: 0px;
+	margin-bottom: 80px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.firstseg p {
+	font-weight: 300;
+	margin-bottom: 40px;
+	margin-top: 150px;
+  color: white;
+}
+
+.firstseg-btn{
+  padding: 16px 40px;
+  background-color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.firstseg-btn:hover {
+	background: #fff;
+  color: black;
+	cursor: pointer; 
+  transition: color .5s;
+	transition: background .5s;  
+}
+
+.container2 {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.supporting2 .col2 {
+  float: center;
+  width: 28%;
+  padding: 10px;
+}
+
+.supporting .col2 p {
+  padding: 10px;
+}
+
+.supporting .col2 h2 {
+  font-size: 40px;
+}
+/*
+
+@media (min-width:850px) {
+	.firstseg h1 {
+		font-size: 300px;
+	}
+
+
+/* Main - I commented this out.  I'm using Jumbotron instead.
+.main {
+  height: 600px;
+}
+
+.main h1 {
+  font-size: 150px;
+}
+
+.main p {
+  font-size: 18px;
+}
+*/
+
+/* Supporting */
+
+
+.supporting {
+  text-align: center;
+  padding: 50px 0 80px;
+  background-color: #1c1c1c;
+}
+
+.supporting .col {
+  float: left;
+  width: 28%;
+  padding: 10px;
+}
+
+.supporting h1,
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Feature */
+
+.feature {
+  height: 600px;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg) no-repeat center center;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.feature h1,
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+  padding:50px 0 0;
+}
+
+.secondseg {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.footer {
+  height: 600px;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg) no-repeat center center;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 20;
+  padding: 180px 0 0;
+}
+
+.thirdseg {
+  position: relative;
+  top: 80px;
+  text-align: center;
+}
+
+.thirdseg-btn{
+  padding: 16px 40px;
+  background-color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.thirdseg-btn:hover {
+	background: #fff;
+  color: black;
+	cursor: pointer; 
+  transition: color .5s;
+	transition: background .5s;  
+}
+
+/* Footer */
+/*
+.footer {
+  height: 600px;
+}
+
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 0;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+/*
+
+@media (min-width:600px) {
+  .main h1 {
+    font-size: 400px;
+  }
+
+  .supporting .col {
+    width: 30%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+  }
+
+  .supporting p {
+    font-size: 14px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
+  }
+} */
